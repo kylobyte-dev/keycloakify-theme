@@ -1,0 +1,19 @@
+@layer reset, base, tokens, recipes, utilities;
+
+@font-face {
+    font-family: "Nuito";
+    src: url("../assets/nuito.ttf");
+}
+
+.logo {
+    font-family: Nuito;
+    font-weight: 600;
+    text-transform: none;
+
+    & .logo-image {
+        width: 64px;
+        height: 64px;
+        margin-right: 10px;
+        vertical-align: -60%;
+    }
+}
